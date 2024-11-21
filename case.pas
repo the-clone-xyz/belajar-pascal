@@ -7,7 +7,10 @@ nobulan : integer;
 
 begin
   clrscr;
-  write('NOMOR BULAN [1...12] : ');
+  writeln('-------------------------------------');
+  writeln('  program sederhana menggunakan case ');
+  writeln('-------------------------------------');
+  write('silahkan pilih [1...12] :              ');
   readln(nobulan);
   case nobulan of
     1: write('januari');
